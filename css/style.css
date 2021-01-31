@@ -1,0 +1,86 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0;
+    background-color: rgba(0, 0, 139, 0.1);
+}
+nav, article {
+    display: inline-block;
+    padding: 1em;
+    margin: 0 auto;
+    text-align: justify;
+    vertical-align: top;
+}
+article {
+    width: 60%;
+    min-width: 400px;
+}
+nav {
+    width: 17em;
+}
+img {
+    float: left;
+    padding: 1em;
+}
+li {
+    list-style-type: none;
+    background-color: rgba(0, 0, 139, 0.8);
+    padding: 8px;
+    margin: 2px;
+}
+.active {
+    background-color: rgba(0, 0, 139, 0.7);
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+div {
+    text-align: center;
+}
+header {
+    background-color:darkblue;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+.navigare {
+    text-align: center;
+}
+.navigare > li {
+    display: inline-block;
+    width: 15em;
+}
+table {
+    border-collapse: collapse;
+    width: 85%;
+    margin: 0 auto;
+}
+th {
+    background-color: rgba(0, 0, 139, 0.8);
+    color: white;
+    padding: 18px;
+}  
+td {
+    text-align: left;
+    padding: 12px;
+}
+tr{
+    background-color: rgba(0, 0, 139, 0.05);
+}
+tr:nth-child(even) {
+    background-color: rgba(0, 0, 139, 0.1);
+}
+.final {
+    height: 75px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
